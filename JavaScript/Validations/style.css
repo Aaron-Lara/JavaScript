@@ -1,0 +1,21 @@
+.myform_input{
+    width: 100px;
+    background: #fff;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+.myform_input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+.form_group-correct .myform_input{
+    border: 3px solid green;
+}
+.form_group-incorrect .myform_input{
+    border: 3px solid red;
+}
