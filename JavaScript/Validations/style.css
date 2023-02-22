@@ -19,3 +19,12 @@
 .form_group-incorrect .myform_input{
     border: 3px solid red;
 }
+.myform_label{
+    font-size: larger;
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 60px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
